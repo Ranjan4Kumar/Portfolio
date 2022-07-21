@@ -10,3 +10,55 @@ body{
     color : #00abae;
 
 }
+
+.title-icon{
+    font-size:20px;
+    font-weight:bold;
+    color:dimgray;
+}
+/******************
+ABOUT
+*******************/
+#about{
+    margin:60px auto;
+    max-width:400px;
+    text-align:center;
+}
+
+#about img{
+    border-radius: 50%;
+    width:120px;
+    margin-bottom:10px;
+}
+
+#about .name{
+    font-size:20px;
+}
+
+#about .vocation{
+    font-size:17px;
+    color:gray;
+    margin-bottom:10px;
+
+}
+#about .skills{
+    font-size:14px;
+    color:#ae000096;
+    margin-bottom:10px;
+
+}
+
+#about .Email{
+    margin-top: 14px;
+    font-size:14px;
+}
+/***** for adding social media logos we need to go to bootstrap website and copy it*********/
+#about .icons{
+    margin-top:20px;
+    font-size:30px;
+}
+
+/****** for changing a color *****/
+#about .icons a{
+    color: rgba(0, 0, 0, 0.576);
+}
